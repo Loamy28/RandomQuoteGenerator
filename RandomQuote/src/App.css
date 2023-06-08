@@ -1,56 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
 body {
-    font-family: 'Nunito', sans-serif;
-    background: #ADA7D4;
-    height: 100vh;
+  font-family: 'Nunito', sans-serif;
+  background: #ADA7D4;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #quote-box {
-    padding: 3rem;
-    background: #fff;
-    width: 40rem;
-    margin: 10rem auto;
-    border-radius: 5px;
+  padding: 3rem;
+  background: #fff;
+  max-width: 40rem;
+  width: 90%;
+  border-radius: 5px;
 }
 
 #text {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 #author {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 1.2rem;
+  font-size: 1.2rem;
+  text-align: right;
 }
 
-/* #buttons {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 2rem;
-} */
-
 #new-quote {
-    background: #CCBADE;
-    border: none;
-    color: #fff;
-    padding: .7rem 1rem;
-    font-size: .9rem;
-    font-weight: bold;
-    border-radius: 2px;
-    outline: none;
-    cursor: pointer;
+  background: #CCBADE;
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
 }
 
 #new-quote:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
